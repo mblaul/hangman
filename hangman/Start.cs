@@ -24,5 +24,10 @@ namespace hangman
             main.Show();
             this.Hide();
         }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(1);
+        }
     }
 }

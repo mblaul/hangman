@@ -8,3 +8,13 @@ E:\Users\Matt\Documents\GitHub\hangman\hangman\hangman\obj\Debug\hangman.exe
 E:\Users\Matt\Documents\GitHub\hangman\hangman\hangman\obj\Debug\hangman.pdb
 E:\Users\Matt\Documents\GitHub\hangman\hangman\hangman\obj\Debug\hangman.Main.resources
 E:\Users\Matt\Documents\GitHub\hangman\hangman\hangman\obj\Debug\hangman.Start.resources
+E:\Users\Matt\Documents\GitHub\hangman\hangman\bin\Debug\hangman.exe.config
+E:\Users\Matt\Documents\GitHub\hangman\hangman\obj\Debug\hangman.exe
+E:\Users\Matt\Documents\GitHub\hangman\hangman\obj\Debug\hangman.pdb
+E:\Users\Matt\Documents\GitHub\hangman\hangman\bin\Debug\hangman.exe
+E:\Users\Matt\Documents\GitHub\hangman\hangman\bin\Debug\hangman.pdb
+E:\Users\Matt\Documents\GitHub\hangman\hangman\obj\Debug\hangman.csprojResolveAssemblyReference.cache
+E:\Users\Matt\Documents\GitHub\hangman\hangman\obj\Debug\hangman.Main.resources
+E:\Users\Matt\Documents\GitHub\hangman\hangman\obj\Debug\hangman.Start.resources
+E:\Users\Matt\Documents\GitHub\hangman\hangman\obj\Debug\hangman.Properties.Resources.resources
+E:\Users\Matt\Documents\GitHub\hangman\hangman\obj\Debug\hangman.csproj.GenerateResource.Cache
