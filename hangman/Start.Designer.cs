@@ -58,6 +58,7 @@
             this.lblRandWord = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.lblWelcome = new System.Windows.Forms.Label();
+            this.lblAuthor = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnStartGame
@@ -308,12 +309,12 @@
             // lblRandWord
             // 
             this.lblRandWord.AutoSize = true;
-            this.lblRandWord.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRandWord.Location = new System.Drawing.Point(122, 79);
+            this.lblRandWord.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRandWord.Location = new System.Drawing.Point(149, 89);
             this.lblRandWord.Name = "lblRandWord";
-            this.lblRandWord.Size = new System.Drawing.Size(433, 73);
+            this.lblRandWord.Size = new System.Drawing.Size(377, 42);
             this.lblRandWord.TabIndex = 29;
-            this.lblRandWord.Text = "- - - - - - - - - - -";
+            this.lblRandWord.Text = "X X X X X X X X X X";
             // 
             // button1
             // 
@@ -336,11 +337,22 @@
             this.lblWelcome.TabIndex = 33;
             this.lblWelcome.Text = "Welcome to Hangman";
             // 
+            // lblAuthor
+            // 
+            this.lblAuthor.AutoSize = true;
+            this.lblAuthor.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAuthor.Location = new System.Drawing.Point(287, 414);
+            this.lblAuthor.Name = "lblAuthor";
+            this.lblAuthor.Size = new System.Drawing.Size(102, 20);
+            this.lblAuthor.TabIndex = 36;
+            this.lblAuthor.Text = "By Matt Blaul";
+            // 
             // Start
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(683, 443);
+            this.Controls.Add(this.lblAuthor);
             this.Controls.Add(this.lblWelcome);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.lblRandWord);
@@ -410,6 +422,7 @@
         private System.Windows.Forms.Label lblRandWord;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label lblWelcome;
+        private System.Windows.Forms.Label lblAuthor;
     }
 }
 

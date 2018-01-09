@@ -1,4 +1,8 @@
-﻿using System;
+﻿//author: Matt Blaul
+//date:   1/8/2018
+//class:  CSI 3370, Dr. Nilesh Patel
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;

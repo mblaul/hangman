@@ -59,6 +59,8 @@
             this.lblTries = new System.Windows.Forms.Label();
             this.btnExit = new System.Windows.Forms.Button();
             this.lblWelcome = new System.Windows.Forms.Label();
+            this.lblAuthor = new System.Windows.Forms.Label();
+            this.lblWin = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnResetGame
@@ -336,7 +338,7 @@
             // 
             this.lblRandWord.AutoSize = true;
             this.lblRandWord.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRandWord.Location = new System.Drawing.Point(174, 80);
+            this.lblRandWord.Location = new System.Drawing.Point(226, 81);
             this.lblRandWord.Name = "lblRandWord";
             this.lblRandWord.Size = new System.Drawing.Size(433, 73);
             this.lblRandWord.TabIndex = 29;
@@ -346,7 +348,9 @@
             // lblTries
             // 
             this.lblTries.AutoSize = true;
+            this.lblTries.BackColor = System.Drawing.SystemColors.InfoText;
             this.lblTries.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTries.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lblTries.Location = new System.Drawing.Point(12, 28);
             this.lblTries.Name = "lblTries";
             this.lblTries.Size = new System.Drawing.Size(132, 42);
@@ -374,11 +378,36 @@
             this.lblWelcome.TabIndex = 34;
             this.lblWelcome.Text = "Welcome to Hangman";
             // 
+            // lblAuthor
+            // 
+            this.lblAuthor.AutoSize = true;
+            this.lblAuthor.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAuthor.Location = new System.Drawing.Point(287, 414);
+            this.lblAuthor.Name = "lblAuthor";
+            this.lblAuthor.Size = new System.Drawing.Size(102, 20);
+            this.lblAuthor.TabIndex = 35;
+            this.lblAuthor.Text = "By Matt Blaul";
+            // 
+            // lblWin
+            // 
+            this.lblWin.AutoSize = true;
+            this.lblWin.BackColor = System.Drawing.SystemColors.InfoText;
+            this.lblWin.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblWin.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lblWin.Location = new System.Drawing.Point(502, 28);
+            this.lblWin.Name = "lblWin";
+            this.lblWin.Size = new System.Drawing.Size(169, 42);
+            this.lblWin.TabIndex = 36;
+            this.lblWin.Text = "You Win!";
+            this.lblWin.Visible = false;
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(683, 443);
+            this.Controls.Add(this.lblWin);
+            this.Controls.Add(this.lblAuthor);
             this.Controls.Add(this.lblWelcome);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.lblTries);
@@ -411,7 +440,7 @@
             this.Controls.Add(this.btnA);
             this.Controls.Add(this.btnResetGame);
             this.Name = "Main";
-            this.Text = "Start Screen";
+            this.Text = "Hangman Game";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -450,6 +479,8 @@
         private System.Windows.Forms.Label lblTries;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Label lblWelcome;
+        private System.Windows.Forms.Label lblAuthor;
+        private System.Windows.Forms.Label lblWin;
     }
 }
 

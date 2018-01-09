@@ -1,4 +1,8 @@
-﻿using System;
+﻿//author: Matt Blaul
+//date:   1/8/2018
+//class:  CSI 3370, Dr. Nilesh Patel
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,7 +17,12 @@ namespace hangman
 {
     public partial class Main : Form
     {
-        public static string[] wordarray = { "tarantula", "applea", "palaisa" };
+        public static string[] wordarray = { "tarantula","copper","explain","tenuous","scandalous",
+                                             "shave","silk","dangerous","muddle","bee","fix","twig",
+                                             "guide","develop","building","loss","fuel","haircut",
+                                             "hysterical","lean","stimulating","start","end","wry",
+                                             "stiff","flowery","draconian","evasive","badge","steady"
+                                            };
         public static Random rnd = new Random();
         string gameword = wordarray[rnd.Next(0, wordarray.Length)];
         public string maskedword;
@@ -66,7 +75,7 @@ namespace hangman
             if (lblRandWord.Text.Contains("-"))
             { 
             }else{
-                lblTries.Text = "You Won!";
+                lblWin.Visible = true;
             }
         }
 
